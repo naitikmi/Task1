@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.headercontainer1 {
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgb(0, 0, 0, 0.12);
+    display: flex;
+}
+
+.headerimg1 {
+    flex: 1;
+    overflow: hidden;
+    padding: 16px;
+    margin: 0px 26px; 
+}
+
+.div1img{
+    width:"162.57px";
+     height:"24px";
+}
+
+.searchimg1 {
+    width:"22px";
+    height:"22px";
+    margin: 8px 8px;
+}
+
+
+.headerform1 input{
+    width: 320px;
+    background-color: #F2F2F2;
+    border: none;
+    color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.headerform1 input:focus{
+    border: none;
+    outline: none;
+}
+
+.headerformbutton{
+    border-radius: 40px;
+    padding: 5px 10px;
+}
+.headerimg1 img {
+    overflow: clip;
+}
+
+
+.headerform1 {
+    flex: 1;
+    width: 400px; 
+}
+.headerbutton1 {
+    flex: 1;
+    color: #2e2e2e;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container1 {
+    background-image: url("../images/Rectangle 2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 440px;
+    object-fit: contain;
+    width: 90%;
+    z-index: 1;
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.containertext1 {
+    margin-top: 325px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+.imagePost {
+    height: 220px;
+    border-radius: 4px 4px 0 0;
+    background-color: #c4c4c4;
+}
+
+.modalcontent1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+
+.modalcontent1div{
+   background-color: #EFFFF4;
+   padding: 1% 2%;
+}
+.modalcontent1div div{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: #008A45;
+
+}
+.createaccount1 {
+    width: 70%; 
+    border: 1px solid black;
+    margin: auto;
+}
+
+#createform1 {
+    display: none;
+    z-index: 2;
+    background-color: white;
+}
+
+.divbutton3{
+    position: relative;
+}
+
+.button3{
+    height: 35px;
+    border: none;
+    background-color: transparent;
+}
+.img3{
+   position: absolute;
+   background-color: gray;
+   top: -45px;
+   left: 225px;
+}
+
+.container2-div1{
+    max-width: 1040px; 
+    height: 68px; 
+    background: rgb(255, 255, 255); 
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.container3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container3-div1{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1040px;
+}
+
+.container3-div1div{
+    max-width: 692px;
+    border-color: rgb(224, 224, 224); 
+    fill: rgb(255, 255, 255);
+}
+
+.containershare{
+    background: rgb(237, 238, 240);
+}
+
+.grouplist{
+    width:"36";
+    height:"36";
+}
+
+.sectiondp{
+    width:"48";
+    height:"48";
+}
+
+.ulimg{
+    width:"20px";
+    height:"20px";
+}
+.locinput{
+    border: none;
+    outline: none;
+}
+.locinput:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.recogroup,.recogroupspan{
+    color: black;
+    margin: 0 0 20px 0;
+}
+
+#listgroupdiv{
+    display: none;
+}
+
+#leavegroup{
+    display: none;
+}
+
+
+.secondtopnav{
+    display: none;
+}
+
+.navtopimg{
+    margin:0 10px;
+    float: right;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .secondtopnav{
+        float: right;
+        display: inline;
+    } 
+}
+
+
+@media only screen and (max-width:700){
+    .container1{
+        width: 100%;
+        background-size: 100% 440px;
+    }
+    .container3-div1div{
+        width: 100%;
+        margin-left: 200px;
+        border-color: rgb(224, 224, 224); 
+        fill: rgb(255, 255, 255);
+    }
+}
+
+@media only screen and (max-width:500){
+    .container{
+        width: 100%;
+        background-size:500px 440px;
+    }
+    .container3-div1div{
+        width: 100%;
+        margin-left: 30%;
+        border-color: rgb(224, 224, 224); 
+        fill: rgb(255, 255, 255);
+    }
+}
